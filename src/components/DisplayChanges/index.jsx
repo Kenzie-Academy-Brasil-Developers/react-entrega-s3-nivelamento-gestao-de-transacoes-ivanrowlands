@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Button, Box, Card, Typography, CardContent } from "@mui/material";
-
 const DisplayChanges = ({ fruits }) => {
   const [show, setShow] = useState(true);
 
@@ -16,7 +15,6 @@ const DisplayChanges = ({ fruits }) => {
         alignItems: "center",
         flexDirection: "column",
         marginTop: 2,
-        borderRadius: "46% 10% / 30% 70%",
       }}
     >
       <Card sx={{ color: "white" }}>

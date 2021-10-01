@@ -14,10 +14,12 @@ function App() {
 
   return (
     <main className="App">
+      <div className="Central">   
       <DisplayRegistration setFruits={setProducts} fruits={products} />
       <DisplayChanges fruits={products} />
       <DisplayAll fruits={products} />
       <DisplayTotalFruits fruits={products} />
+      </div>
     </main>
   );
 }
